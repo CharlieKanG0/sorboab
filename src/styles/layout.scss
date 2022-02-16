@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700;800;900&display=swap');
+
+$heading-font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+$body-font-family: 'Quicksand', sans-serif;
+$source-font-family: monospace;
+
+$base-font-size: convert-rem(16px);
+$base-font-weight: 400;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $heading-font-family;
+	color: #ffffff;
+}
+
+p {
+	font-family: $body-font-family;
+  font-size: $base-font-size;
+  color: #ffffff;
+}
+
+.App {
+  height: 100vh;
+  background-color: #8980d7;
+  overflow: hidden;
+  text-align: center;
+
+  .container {
+    width: 100%;
+    height: 100%;
+    background-color: #8980d7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .header-container {
+      padding-top: 30px;
+
+      .header {
+        margin: 0;
+        font-size: 50px;
+        color: white;
+      }
+
+      .sub-text {
+        font-size: 40px;
+        color: white;
+      }
+    }
+  }
+}
