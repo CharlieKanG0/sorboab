@@ -25,31 +25,42 @@ p {
 
 .App {
   height: 100vh;
-  background-color: #8980d7;
+  background-color: #9894e0;
   overflow: hidden;
   text-align: center;
+}
 
-  .container {
-    width: 100%;
-    height: 100%;
-    background-color: #8980d7;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.container {
+  width: 100%;
+  height: 100%;
+  margin-top: 15vh;
+  background-color:#9894e0; // #8980d7;
+  display: flex;
+  flex-direction: column;
 
-    .header-container {
-      padding-top: 30px;
+  .header-container {
+    padding-top: 30px;
 
-      .header {
-        margin: 0;
-        font-size: 50px;
-        color: white;
-      }
+    .header {
+      margin: 0;
+      font-size: 50px;
+      color: white;
+    }
 
-      .sub-text {
-        font-size: 40px;
-        color: white;
-      }
+    .sub-text {
+      font-size: 40px;
+      color: white;
+    }
+  }
+
+  .social-media-container {
+    align-self: center;
+    width: 250px;
+
+    .logos {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
     }
   }
 }
